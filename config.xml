@@ -19,17 +19,16 @@
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
 	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="14" />
-	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+	<preference name="android-minSdkVersion" value="16" />
 
-	<plugin name="cordova-plugin-wkwebview-engine" />
-	<plugin name="cordova-plugin-file" />
-	<plugin name="cordova-plugin-httpd" />
+<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" />
+<plugin name="cordova-plugin-file" spec="4.3.3" />
+<plugin name="cordova-plugin-httpd" spec="0.9.3" />
+<plugin name="cordova-plugin-inappbrowser" spec="1.7.1" />
+<plugin name="cordova-plugin-whitelist" spec="1.3.2" />
+<plugin name="cordova-plugin-wkwebview-engine" spec="1.1.3" />
 
-	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
-
-	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
